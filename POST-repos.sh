@@ -4,8 +4,8 @@
 ## https://github.com/static0verdrive/nexus
 
 # Nexus Instance & Credentials
-IP="192.168.1.9"
-PORT="9081"
+IP="192.168.1.5"
+PORT="8081"
 USERNAME="admin"
 PASSWORD="WebGUIPasswordHere"
 
