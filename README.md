@@ -5,9 +5,10 @@ This project contains scripts for configuring [Sonatype Nexus 3](https://www.son
 ## Backgroud
 Nexus acts as a repository for most modern IT needs. It can serve hosted or proxied repos for apt, docker, yum/dnf, nuget, pypi or even raw filesystems and more over http/https. The web GUI is intuitive, and administration can be done there easily or via POST messages and JSON.
 
+Shout out to **dsawa** on [Sonatype's community forums](https://community.sonatype.com "sonatype | community") for helping me tweak the json files for this project.
+
 ## Interacting with Nexus
 ### Using the Rest API via curl
-Shout out to **dsawa** on [Sonatype's community forums](https://community.sonatype.com "sonatype | community") for helping me tweak the json files for this project.
 #### GET
 Get your existing repos with the following curl command. In this case they are written to a file "repos.json", but note this file is missing some settings needed to create a repo using the POST method below.
 
