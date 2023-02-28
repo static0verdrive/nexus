@@ -1,0 +1,20 @@
+{
+  "name": "vagrant",
+  "online": true,
+  "storage": {
+    "blobStoreName": "default",
+    "strictContentTypeValidation": true,
+    "writePolicy": "allow_once"
+  },
+  "cleanup": {
+    "policyNames": [
+      "string"
+    ]
+  },
+  "component": {
+    "proprietaryComponents": true
+  },
+  "raw": {
+    "contentDisposition": "ATTACHMENT"
+  }
+}
