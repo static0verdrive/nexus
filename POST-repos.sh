@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# POST-repos.sh by static0verdrive
+## https://github.com/static0verdrive/nexus
+
 # Nexus Instance & Credentials
 IP="192.168.1.9"
 PORT="9081"
