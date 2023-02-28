@@ -9,6 +9,7 @@ Nexus acts as a repository for most modern IT needs. It can serve hosted or prox
 ### Using the Rest API via curl
 #### GET
 Get your existing repos with the following curl command. In this case they are written to a file "repos.json", but note this file is missing some settings needed to create a repo using the POST method below.
+
 `curl -u admin:<password> -X GET 'http://nexus:8081/service/rest/v1/repositories' -o repos.json`
 
 
