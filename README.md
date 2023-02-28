@@ -7,6 +7,7 @@ Nexus acts as a repository for most modern IT needs. It can serve hosted or prox
 
 ## Interacting with Nexus
 ### Using the Rest API via curl
+Shout out to **dsawa** on [Sonatype's community forums](https://community.sonatype.com "sonatype | community") for helping me tweak the json files for this project.
 #### GET
 Get your existing repos with the following curl command. In this case they are written to a file "repos.json", but note this file is missing some settings needed to create a repo using the POST method below.
 
